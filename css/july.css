@@ -2,25 +2,25 @@
   font-family: 'Vollkorn';
   font-style: italic;
   font-weight: 400;
-  src: local('Vollkorn Italic'), local('Vollkorn-Italic'), url(http://fonts.gstatic.com/s/vollkorn/v10/0yb7GDoxxrvAnPhYGxksWE8erA.ttf) format('truetype');
+  src: local('Vollkorn Italic'), local('Vollkorn-Italic'), url(https://fonts.gstatic.com/s/vollkorn/v10/0yb7GDoxxrvAnPhYGxksWE8erA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Vollkorn';
   font-style: italic;
   font-weight: 700;
-  src: local('Vollkorn Bold Italic'), local('Vollkorn-BoldItalic'), url(http://fonts.gstatic.com/s/vollkorn/v10/0yb4GDoxxrvAnPhYGxksUPQ7vBcU_Q.ttf) format('truetype');
+  src: local('Vollkorn Bold Italic'), local('Vollkorn-BoldItalic'), url(https://fonts.gstatic.com/s/vollkorn/v10/0yb4GDoxxrvAnPhYGxksUPQ7vBcU_Q.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Vollkorn';
   font-style: normal;
   font-weight: 400;
-  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(http://fonts.gstatic.com/s/vollkorn/v10/0yb9GDoxxrvAnPhYGxkpaEg.ttf) format('truetype');
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(https://fonts.gstatic.com/s/vollkorn/v10/0yb9GDoxxrvAnPhYGxkpaEg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Vollkorn';
   font-style: normal;
   font-weight: 700;
-  src: local('Vollkorn Bold'), local('Vollkorn-Bold'), url(http://fonts.gstatic.com/s/vollkorn/v10/0yb6GDoxxrvAnPhYGxGSTVg5jBA.ttf) format('truetype');
+  src: local('Vollkorn Bold'), local('Vollkorn-Bold'), url(https://fonts.gstatic.com/s/vollkorn/v10/0yb6GDoxxrvAnPhYGxGSTVg5jBA.ttf) format('truetype');
 }
 *,
 :after,
@@ -82,7 +82,7 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  color: #FFFFFF;
+  color: #656565;
   word-wrap: break-word;
   -webkit-tap-highlight-color: transparent;
 }
@@ -118,8 +118,8 @@ body {
 #banner-outer #avatar {
   position: absolute;
   bottom: -5rem;
-  width: 12rem;
-  height: 12rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   left: 50%;
   transform: translateX(-50%);
@@ -158,41 +158,34 @@ body {
 #menu-outer.fade-show {
   transition: background-color 3s, max-width 1s;
   max-width: 100%;
-  background-color: #363636;
+  background-color: #ffffff;
 }
 #menu-outer.fade-show #menu-inner a {
   color: white;
 }
 #content-outer {
   width: 90%;
-  margin: 0rem auto;
+  margin: 2rem auto;
 }
-#content-outer #content-inner {
+#content-outer #content-inner h3.widget-title {
   text-align: center;
   margin-bottom: 0.5rem;
-  color: #868686;
-}
-h3.widget-title{
-  font-weight:bold;
-  font-size:25px;
-  text-align: center;
-  margin-bottom: 2rem;
-  color: #050101;
+  color: #000000;
 }
 #content-outer #content-inner .recent-post-item,
 #content-outer #content-inner .archive-item,
 #content-outer #content-inner .category-item,
 #content-outer #content-inner .tag-item {
-  font-size:60px;
   text-align: center;
-  line-height: 0.5;
-  margin-top: 1rem;
+  line-height: 1.5;
+  margin-top: 0.25rem;
 }
 #content-outer #content-inner .recent-post-item a,
 #content-outer #content-inner .archive-item a,
 #content-outer #content-inner .category-item a,
 #content-outer #content-inner .tag-item a {
-  color: #010205;
+  font-size: 3rem;
+  color: #1a202c;
 }
 #content-outer #content-inner .recent-post-item a:hover,
 #content-outer #content-inner .archive-item a:hover,
@@ -204,8 +197,8 @@ h3.widget-title{
 #content-outer #content-inner .archive-item time,
 #content-outer #content-inner .category-item time,
 #content-outer #content-inner .tag-item time {
-  font-size: 1.2rem;
-  color: #000307;
+  font-size: 1rem;
+  color: #a0aec0;
 }
 #content-outer #content-inner #archive {
   text-align: center;
@@ -221,11 +214,11 @@ ul.archive-list {
   list-style: none;
 }
 #bottom-outer {
-  margin: 7rem auto;
+  margin: 8rem auto;
   text-align: center;
 }
 #bottom-outer #bottom-inner {
-  color: #0a0909;
+  color: #a2a2a2;
 }
 article#post > h1#post-title {
   color: #4c4c4c;
@@ -241,14 +234,13 @@ article#post > #post-content {
   color: #2d3748;
 }
 #paginator {
-  font-size:30px;
+  font-size: 1.8rem;
   text-align: center;
-  margin: 13.8rem 0 0;
-  color: #0a0909;
+  margin: 3rem 0 0;
 }
 #paginator span,
 #paginator a {
-  margin: 12rem;
+  margin: 0 0.3rem;
 }
 .markdown-body {
   margin: 0 auto;
